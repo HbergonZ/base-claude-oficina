@@ -22,6 +22,7 @@ Os nomes ficam em `src/equipe.ts` no formato Nome (Faculdade). Todas as páginas
 - Rode `npm run build` antes de cada commit e corrija os erros.
 - Chaves só em variáveis de ambiente (`.env.local` e Vercel). Nunca no código nem no commit.
 - Use a chave pública (anon/publishable) no navegador. A service role nunca vai para o cliente.
+- Variáveis do Supabase: pegue a URL e a chave publishable pelo conector do Supabase e crie `NEXT_PUBLIC_SUPABASE_URL` e `NEXT_PUBLIC_SUPABASE_ANON_KEY` na Vercel (Production e Preview) pelo conector da Vercel, e também em `.env.local`. Se algum conector não estiver disponível, peça para a equipe colar os valores.
 - Telas pensadas primeiro para o celular.
 - Textos da interface em português do Brasil.
 
