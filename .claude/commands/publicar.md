@@ -8,6 +8,7 @@ Antes de publicar, revise o diff atual (`git diff`) e corrija o que encontrar:
 3. Formulário sem validação ou dado do usuário mostrado sem escapar
 4. Algo que quebra no celular (largura fixa, texto cortado)
 5. Botão "Equipe" faltando em alguma página
+6. Use a skill `web-design-guidelines` nas páginas alteradas (acessibilidade e UX) e corrija o que ela apontar
 
 Depois publique:
 1. Rode `npm run build` e corrija todos os erros.

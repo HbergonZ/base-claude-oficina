@@ -6,7 +6,8 @@
       "Bash(npm run dev)",
       "Bash(npm install:*)",
       "Bash(git status)",
-      "Bash(git diff:*)"
+      "Bash(git diff:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ],
     "deny": [
       "Read(./.env)",
