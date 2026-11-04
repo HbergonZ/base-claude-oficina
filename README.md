@@ -7,10 +7,16 @@ Modelo de repositório para os projetos da oficina Conexão Tech.RO.
 |---|---|
 | `CLAUDE.md` | Regras do projeto que o Claude lê em toda sessão |
 | `AGENTS.md` | Aponta o Codex para as mesmas regras |
-| `.claude/skills/` | `supabase-seguro` e `deploy-vercel`, usadas quando o assunto aparece |
+| `.claude/skills/` | Skills oficiais e populares, usadas sozinhas quando o assunto aparece: `frontend-design` (Anthropic), `vercel-react-best-practices` (Vercel) e `supabase-postgres-best-practices` (Supabase) |
 | `.claude/commands/` | `/proximo-passo` e `/publicar` |
 | `.claude/settings.json` | Libera build e lint e bloqueia a leitura do `.env` |
 | `.mcp.json` | Supabase e Vercel para quem usa o Claude Code no terminal |
+
+## Skills de terceiros
+Copiadas sem alteração dos repositórios oficiais, com as licenças originais:
+- `frontend-design`: [anthropics/skills](https://github.com/anthropics/skills) (Apache 2.0, ver `LICENSE.txt` na pasta)
+- `vercel-react-best-practices`: [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT)
+- `supabase-postgres-best-practices`: [supabase/agent-skills](https://github.com/supabase/agent-skills) (MIT)
 
 ## Como usar
 Este é um repositório modelo. Ele começa sem app: na primeira sessão o Claude cria o Next.js na raiz, mantendo estes arquivos.
